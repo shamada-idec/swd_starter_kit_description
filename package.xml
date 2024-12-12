@@ -10,11 +10,12 @@
     <p>URDF package for the SWD Starter Kit</p>
   </description>
 
-  <maintainer email="a.bougouffa@ez-wheel.com">Abdelhak BOUGOUFFA</maintainer>
+  <maintainer email="gregory.mermet@idec.com">Gregory MERMET</maintainer>
 
-  <license>GPLv2</license>
+  <license>LGPLv2.1</license>
 
   <author email="a.bougouffa@ez-wheel.com">Abdelhak BOUGOUFFA</author>
+  <author email="gregory.mermet@idec.com">Gregory MERMET</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <depend>roslaunch</depend>
