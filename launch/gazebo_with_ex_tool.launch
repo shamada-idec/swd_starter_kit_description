@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <launch>
   <arg name="rviz" default="true" />
+  <arg name="gui" default="true" />
+
   <param name="robot_description" textfile="$(find swd_starter_kit_description)/urdf/swd_starter_kit_with_ex_tool.urdf" />
 
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
@@ -13,7 +15,7 @@
     <arg name="world_name" value="$(find swd_starter_kit_description)/worlds/four_boxes.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
-    <arg name="gui" value="true"/>
+    <arg name="gui" value="$(arg gui)"/>
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/>
     <arg name="verbose" value="true"/>

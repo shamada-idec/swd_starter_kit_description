@@ -263,7 +263,7 @@
 
       <plugin name="laser_controller" filename="libgazebo_ros_laser.so">
         <topicName>scan</topicName>
-        <frameName>lidar_link</frameName>
+        <frameName>scan_link</frameName>
       </plugin>
     </sensor>
   </gazebo>
